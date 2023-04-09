@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=companydb;encrypt=true;trustServerCertificate=true
+    username: sa
+    password: sa123
+    driverClassName: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    database-platform: org.hibernate.dialect.SQLServer2012Dialect
+    show-sql: true
+server:
+  port: 8080
+
+#  hibernetdialect: converting column name
+
+
